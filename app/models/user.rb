@@ -1,4 +1,6 @@
 class User < ApplicationRecord
-    has_many :users
+    has_secure_password
+    
+    has_many :ads
     has_many :comments
 end
