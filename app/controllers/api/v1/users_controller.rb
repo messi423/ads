@@ -14,7 +14,7 @@ module Api
 
             def show
                 @user = User.find_by(id: params[:user_id])
-                render json: UserSerializer.new(@user, options).serialized_json
+                render json: @user
             end
 
 
@@ -30,7 +30,7 @@ module Api
             end
 
             def login
-                @user = User.find_by(name: params[:name])
+                @user = User.find_by(email: params[:email])
             
                 if @user && @user.authenticate(params[:password])
                   token = encode_token({user_id: @user.id})
