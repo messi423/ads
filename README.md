@@ -60,6 +60,6 @@ Step By Step Guide  :)
 
 
 9. While deploying on Heroku, i found that it requires postgre, i installed that and required gem, but i was facing error 
-  which i could not resolve after doing a lot of sufing, hence i couldn't deploy.
+  which i could not resolve after doing a lot of surfing, hence i couldn't deploy.
   
   ![WhatsApp Image 2021-08-29 at 10 07 49 PM (5)](https://user-images.githubusercontent.com/54207145/131257802-13cb80e3-ab6f-4676-be68-7e034252b841.jpeg)
